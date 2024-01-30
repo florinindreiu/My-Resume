@@ -1,0 +1,60 @@
+.text-upp{
+    text-transform: uppercase;
+    font-family: 'Noto Serif';
+    color: white;
+}
+
+.container{
+    background-color: #A9A9A9;
+    
+}
+
+.me-web{
+    background-color: #E55604;
+}
+
+.avatar{
+    border-radius: 50%;
+}
+
+.job{
+    flex-direction: row;
+    flex:1;
+}
+.details{
+    flex:2;
+}
+
+.experience-list{
+    background-color: #E55604;
+    color: white;
+}
+
+.education-list{
+    background-color: #45474B;
+    color: white;
+}
+
+.skills{
+    font-family: 'Bree Serif', serif;
+}
+
+.middle{
+    display: flex;
+
+}
+
+@media (max-width: 991px) {
+
+    .text-upp > h1{
+        text-align: center;
+    }
+    .text-upp > h2{
+        text-align: center;
+    }
+
+    .skill-item{
+     align-items: center;
+     justify-content: center;
+    }
+}
